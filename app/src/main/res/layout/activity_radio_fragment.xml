@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lkl.puply.FrameLayoutAndroidRadioGroup.RadioFragmentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="标题"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_FFFFFF"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/income_one_rl"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/income_one_tv"
+                    android:text="全部"
+                    style="@style/style_income_text_view"
+                    />
+                <View
+                    android:id="@+id/income_view_line_one"
+                    style="@style/style_income_view_line"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/income_two_rl"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/income_two_tv"
+                    style="@style/style_income_text_view"
+                    android:text="已入账"
+                    />
+                <View
+                    android:id="@+id/income_view_line_two"
+                    style="@style/style_income_view_line"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/income_three_rl"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/income_three_tv"
+                    style="@style/style_income_text_view"
+                    android:text="待入账"
+                    />
+                <View
+                    android:id="@+id/income_view_line_three"
+                    style="@style/style_income_view_line"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/income_four_rl"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/income_four_tv"
+                    style="@style/style_income_text_view"
+                    android:text="已失效"
+                    />
+
+                <View
+                    android:id="@+id/income_view_line_four"
+                    style="@style/style_income_view_line"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            style="@style/LayoutHorizontalLine"/>
+        <FrameLayout
+            android:id="@+id/income_framelayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

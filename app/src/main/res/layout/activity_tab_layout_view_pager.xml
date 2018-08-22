@@ -5,21 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.lkl.puply.MainActivity">
+    tools:context="com.lkl.puply.FrameLayoutAndroidRadioGroup.TabLayoutViewPagerActivity">
 
-    <TextView
-        android:id="@+id/tv_test"
+    <android.support.design.widget.TabLayout
+        android:id="@+id/table_layout"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="Hello World!"
-        android:gravity="center"
-        android:background="@color/color_9B9B9B"/>
+        app:tabIndicatorColor="@color/color_FD2A5B"
+        >
 
-    <TextView
-        android:id="@+id/tv_test2"
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="Hello World!"
-        android:gravity="center"
-        android:background="@color/color_FFFFFF"/>
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
 </LinearLayout>
