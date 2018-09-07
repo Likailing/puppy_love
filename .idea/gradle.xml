@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/coolweather" />
+            <option value="$PROJECT_DIR$/networklib" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
