@@ -3,10 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://D:\soft\android\project\githubDemo\puppy_love\app\app.iml" filepath="D:\soft\android\project\githubDemo\puppy_love\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/coolweather/coolweather.iml" filepath="$PROJECT_DIR$/coolweather/coolweather.iml" />
       <module fileurl="file://$PROJECT_DIR$/networklib/networklib.iml" filepath="$PROJECT_DIR$/networklib/networklib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/puppy_love.iml" filepath="$PROJECT_DIR$/.idea/modules/puppy_love.iml" />
+      <module fileurl="file://$PROJECT_DIR$/puppy_love.iml" filepath="$PROJECT_DIR$/puppy_love.iml" />
     </modules>
   </component>
 </project>
