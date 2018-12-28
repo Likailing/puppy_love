@@ -1,4 +1,4 @@
-package com.lkl.networklib;
+package com.lkl.networklib.util;
 
 import java.util.concurrent.TimeUnit;
 
