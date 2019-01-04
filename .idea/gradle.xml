@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/commonlib" />
             <option value="$PROJECT_DIR$/coolweather" />
             <option value="$PROJECT_DIR$/roundandcircleimage" />
+            <option value="$PROJECT_DIR$/typesprogressbar" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

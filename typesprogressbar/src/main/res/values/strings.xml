@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TypesProgressBar</string>
+
+    <declare-styleable name="CircleProgressBar">
+        <attr name="mCircleBgColor" format="color"/>
+        <attr name="mTextColor" format="color"/>
+        <attr name="mCircleWidth" format="dimension"/>
+        <attr name="mTextSize" format="dimension"/>
+        <attr name="mProgressColor" format="color"/>
+    </declare-styleable>
+</resources>

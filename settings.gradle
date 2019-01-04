@@ -1,1 +1,1 @@
-include ':app', ':coolweather', ':commonlib', ':roundandcircleimage'
+include ':app', ':coolweather', ':commonlib', ':roundandcircleimage', ':typesprogressbar'
