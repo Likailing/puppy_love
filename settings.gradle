@@ -1,1 +1,1 @@
-include ':app', ':coolweather', ':commonlib', ':roundandcircleimage', ':typesprogressbar', ':rxjavaandretrofit'
+include ':app', ':coolweather', ':commonlib', ':roundandcircleimage', ':typesprogressbar', ':rxjavaandretrofit', ':recyclerviewwithtangrams'
